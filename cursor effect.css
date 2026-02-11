@@ -1,0 +1,23 @@
+html {
+    cursor: none;
+}   
+.cursore {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    mix-blend-mode: difference; /* color inversion effect */
+    pointer-events: none;
+}
+
+body {
+background-color: black;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 350px;
+    font-size: 3em;
+}
